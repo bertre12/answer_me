@@ -1,3 +1,6 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+# Отображение главной страницы.
+def page_index(request):
+    return render(request, 'page/page_index.html')
