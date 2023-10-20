@@ -1,0 +1,94 @@
+/* https://color.romanuke.com/tsvetovaya-palitra-3955/ - Цветовая палитра */
+
+/* Общий фон */
+.basic {
+    background: #94b0b7;
+}
+
+/*Шапка*/
+nav {
+    background-color: #7697a0; /* цвет фона */
+    height: 60px; /* ширина */
+    padding-top: 10px; /* отступ текста */
+}
+
+/* Текст шапки */
+.navbar-brand {
+    color: black;
+    font-weight: 500; /* жирность */
+}
+
+/* Замена цвета текста шапки при касании */
+.container a:hover {
+    color: #ddddda;
+}
+
+/* Отступ от шапки */
+.row {
+    padding-top: 40px;
+}
+
+/* Окно представления */
+.card-body {
+    background: #c2c8c5; /* цвет фона */
+    height: 170px; /* нижний отступ */
+}
+
+/* Отступ от основного теста */
+h1 {
+    padding-bottom: 15px;
+}
+
+/* фон кнопки */
+.card-body a:hover {
+    background: #94b0b7; /* фон при касании */
+    color: black; /* цвет при касании */
+    font-weight: 600; /* жирность */
+    border-width: 2px; /* толщина рамки кнопки */
+}
+
+/* Выделение текста вопросов */
+.card-body > p {
+    font-weight: 600;
+}
+
+/* Отступ текста от кнопок */
+.lead {
+    height: 60px;
+}
+
+/* Фон кнопки вопросов */
+.card-body_1 a:hover {
+    color: black; /* цвет при касании */
+    background-color: #94b0b7; /* цвет при касании */
+    border-color: #4a707a; /* цвет рамки */
+    border-width: 2px; /* толщина рамки кнопки */
+}
+
+/* Фон кнопки ответа */
+.card-body_1 input:hover {
+    color: black; /* цвет при касании */
+    background-color: #ddddda; /* цвет при касании */
+    border-color: #4a707a; /* цвет рамки */
+    border-width: 2px; /* толщина рамки кнопки */
+}
+
+/* Цвет текста при невыбранном ответе */
+.error {
+    color: black;
+}
+
+/* Цвет текста кнопок результата */
+.card-body_2 a:hover {
+    color: black; /* цвет при касании */
+    background-color: #4a707a; /* цвет при касании */
+    border-color: #c2c8c5; /* цвет рамки */
+    border-width: 2px; /* толщина рамки кнопки */
+    font-weight: 600;
+}
+
+/* Цвет текста результата */
+.list-group-item {
+    color: black;
+    font-weight: 600;
+}
